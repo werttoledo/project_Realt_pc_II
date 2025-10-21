@@ -1,0 +1,34 @@
+# Entornos virtuales (no subir)
+venv/
+venv*/
+venv_mediapipe/*
+\n+# Archivos compilados y caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Paquetes y dependencias
+*.egg-info/
+dist/
+build/
+
+# Binarios grandes, DLLs y extensiones nativas
+*.pyd
+*.so
+*.dll
+*.lib
+*.exe
+
+# IDEs y sistema
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Bases de datos locales
+*.sqlite3
+
+# Media and datasets (opcional - ajustar según proyecto)
+# /data/
